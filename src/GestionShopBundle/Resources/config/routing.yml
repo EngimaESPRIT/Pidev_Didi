@@ -1,0 +1,3 @@
+gestion_shop_homepage:
+    path:     /
+    defaults: { _controller: GestionShopBundle:Default:index }
