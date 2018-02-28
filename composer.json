@@ -21,19 +21,27 @@
     },
     "require": {
         "php": ">=5.5.9",
+        "ancarebeca/full-calendar-bundle": "^5.0",
         "doctrine/doctrine-bundle": "^1.6",
         "doctrine/orm": "^2.5",
+        "endroid/calendar": "^2.0",
+        "endroid/qr-code": "^3.2",
+        "friendsofsymfony/user-bundle": "~2.0@dev",
         "incenteev/composer-parameter-handler": "^2.0",
+        "nomaya/social-bundle": "dev-master",
         "sensio/distribution-bundle": "^5.0.19",
         "sensio/framework-extra-bundle": "^3.0.2",
         "symfony/monolog-bundle": "^3.1.0",
         "symfony/polyfill-apcu": "^1.0",
+        "symfony/polyfill-php55": "^1.7",
+        "symfony/polyfill-php71": "^1.7",
         "symfony/swiftmailer-bundle": "^2.3.10",
         "symfony/symfony": "3.3.*",
         "twig/twig": "^1.0||^2.0",
-        "friendsofsymfony/user-bundle": "~2.0@dev"
+        "xipotera/full-calendar-bundle": "v1.1.0"
     },
     "require-dev": {
+        "phpspec/phpspec": "^4.3",
         "sensio/generator-bundle": "^3.0",
         "symfony/phpunit-bridge": "^3.0"
     },

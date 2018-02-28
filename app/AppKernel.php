@@ -25,6 +25,9 @@ class AppKernel extends Kernel
             new GestionCommoditeBundle\GestionCommoditeBundle(),
             new GestionActualiteBundle\GestionActualiteBundle(),
             new GestionShopBundle\GestionShopBundle(),
+            new Nomaya\SocialBundle\NomayaSocialBundle(),
+            new AncaRebeca\FullCalendarBundle\FullCalendarBundle(),
+
         ];
 
         if (in_array($this->getEnvironment(), ['dev', 'test'], true)) {

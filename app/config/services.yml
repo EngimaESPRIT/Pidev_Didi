@@ -37,3 +37,7 @@ services:
         class: MyApp\UserBundle\Form\RegistrationType
         tags:
             - { name: form.type, alias: myapp_user_bundle_registration }
+    app_bundle.service.listener:
+        class: AppBundle\Listener\LoadDataListener
+        tags:
+        - { name: kernel.event_listener, event: fullcalendar.set_data, method: loadData }

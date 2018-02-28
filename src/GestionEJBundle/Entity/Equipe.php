@@ -7,7 +7,7 @@ use Doctrine\ORM\Mapping as ORM;
 /**
  * Equipe
  *
- * @ORM\Table(name="equipe")
+ * @ORM\Table(name="equipe", indexes={@ORM\Index(name="fk_groupes", columns={"Groupe"})})
  * @ORM\Entity
  */
 class Equipe
@@ -118,12 +118,58 @@ class Equipe
      * @ORM\Column(name="PhotoEquipe", type="string", length=255, nullable=false)
      */
     private $photoequipe;
+
     /**
      * @var string
      *
      * @ORM\Column(name="LogoFederation", type="string", length=255, nullable=false)
      */
-    private $Logo;
+    private $logofederation;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="nbr_points", type="integer", nullable=true)
+     */
+    private $nbrPoints;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="nbr_buts", type="integer", nullable=true)
+     */
+    private $nbrButs;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="matchesgagnes", type="integer", nullable=true)
+     */
+    private $matchesgagnes;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="matchesperdus", type="integer", nullable=true)
+     */
+    private $matchesperdus;
+
+    /**
+     * @var integer
+     *
+     * @ORM\Column(name="matchesnulles", type="integer", nullable=true)
+     */
+    private $matchesnulles;
+
+    /**
+     * @var \Groupe
+     *
+     * @ORM\ManyToOne(targetEntity="GestionMatchBundle\Entity\Groupe")
+     * @ORM\JoinColumns({
+     *   @ORM\JoinColumn(name="Groupe", referencedColumnName="Nom_Groupe")
+     * })
+     */
+    private $groupe;
 
     /**
      * @return int
@@ -135,12 +181,10 @@ class Equipe
 
     /**
      * @param int $idequipe
-     * @return Equipe
      */
     public function setIdequipe($idequipe)
     {
         $this->idequipe = $idequipe;
-        return $this;
     }
 
     /**
@@ -153,12 +197,10 @@ class Equipe
 
     /**
      * @param string $nom
-     * @return Equipe
      */
     public function setNom($nom)
     {
         $this->nom = $nom;
-        return $this;
     }
 
     /**
@@ -171,12 +213,10 @@ class Equipe
 
     /**
      * @param string $capital
-     * @return Equipe
      */
     public function setCapital($capital)
     {
         $this->capital = $capital;
-        return $this;
     }
 
     /**
@@ -189,12 +229,10 @@ class Equipe
 
     /**
      * @param int $participations
-     * @return Equipe
      */
     public function setParticipations($participations)
     {
         $this->participations = $participations;
-        return $this;
     }
 
     /**
@@ -207,12 +245,10 @@ class Equipe
 
     /**
      * @param string $continent
-     * @return Equipe
      */
     public function setContinent($continent)
     {
         $this->continent = $continent;
-        return $this;
     }
 
     /**
@@ -225,12 +261,10 @@ class Equipe
 
     /**
      * @param int $victoires
-     * @return Equipe
      */
     public function setVictoires($victoires)
     {
         $this->victoires = $victoires;
-        return $this;
     }
 
     /**
@@ -243,12 +277,10 @@ class Equipe
 
     /**
      * @param string $entraineur
-     * @return Equipe
      */
     public function setEntraineur($entraineur)
     {
         $this->entraineur = $entraineur;
-        return $this;
     }
 
     /**
@@ -261,12 +293,10 @@ class Equipe
 
     /**
      * @param int $classementfifa
-     * @return Equipe
      */
     public function setClassementfifa($classementfifa)
     {
         $this->classementfifa = $classementfifa;
-        return $this;
     }
 
     /**
@@ -279,12 +309,10 @@ class Equipe
 
     /**
      * @param int $matchescm
-     * @return Equipe
      */
     public function setMatchescm($matchescm)
     {
         $this->matchescm = $matchescm;
-        return $this;
     }
 
     /**
@@ -297,12 +325,10 @@ class Equipe
 
     /**
      * @param int $butscm
-     * @return Equipe
      */
     public function setButscm($butscm)
     {
         $this->butscm = $butscm;
-        return $this;
     }
 
     /**
@@ -315,12 +341,10 @@ class Equipe
 
     /**
      * @param int $matchwins
-     * @return Equipe
      */
     public function setMatchwins($matchwins)
     {
         $this->matchwins = $matchwins;
-        return $this;
     }
 
     /**
@@ -333,12 +357,10 @@ class Equipe
 
     /**
      * @param int $matchlosses
-     * @return Equipe
      */
     public function setMatchlosses($matchlosses)
     {
         $this->matchlosses = $matchlosses;
-        return $this;
     }
 
     /**
@@ -351,12 +373,10 @@ class Equipe
 
     /**
      * @param int $matchdraws
-     * @return Equipe
      */
     public function setMatchdraws($matchdraws)
     {
         $this->matchdraws = $matchdraws;
-        return $this;
     }
 
     /**
@@ -369,12 +389,10 @@ class Equipe
 
     /**
      * @param string $drapeau
-     * @return Equipe
      */
     public function setDrapeau($drapeau)
     {
         $this->drapeau = $drapeau;
-        return $this;
     }
 
     /**
@@ -387,28 +405,122 @@ class Equipe
 
     /**
      * @param string $photoequipe
-     * @return Equipe
      */
     public function setPhotoequipe($photoequipe)
     {
         $this->photoequipe = $photoequipe;
-        return $this;
     }
 
     /**
      * @return string
      */
-    public function getLogo()
+    public function getLogofederation()
     {
-        return $this->Logo;
+        return $this->logofederation;
     }
 
     /**
-     * @param string $Logo
+     * @param string $logofederation
      */
-    public function setLogo($Logo)
+    public function setLogofederation($logofederation)
     {
-        $this->Logo = $Logo;
+        $this->logofederation = $logofederation;
+    }
+
+    /**
+     * @return int
+     */
+    public function getNbrPoints()
+    {
+        return $this->nbrPoints;
+    }
+
+    /**
+     * @param int $nbrPoints
+     */
+    public function setNbrPoints($nbrPoints)
+    {
+        $this->nbrPoints = $nbrPoints;
+    }
+
+    /**
+     * @return int
+     */
+    public function getNbrButs()
+    {
+        return $this->nbrButs;
+    }
+
+    /**
+     * @param int $nbrButs
+     */
+    public function setNbrButs($nbrButs)
+    {
+        $this->nbrButs = $nbrButs;
+    }
+
+    /**
+     * @return int
+     */
+    public function getMatchesgagnes()
+    {
+        return $this->matchesgagnes;
+    }
+
+    /**
+     * @param int $matchesgagnes
+     */
+    public function setMatchesgagnes($matchesgagnes)
+    {
+        $this->matchesgagnes = $matchesgagnes;
+    }
+
+    /**
+     * @return int
+     */
+    public function getMatchesperdus()
+    {
+        return $this->matchesperdus;
+    }
+
+    /**
+     * @param int $matchesperdus
+     */
+    public function setMatchesperdus($matchesperdus)
+    {
+        $this->matchesperdus = $matchesperdus;
+    }
+
+    /**
+     * @return int
+     */
+    public function getMatchesnulles()
+    {
+        return $this->matchesnulles;
+    }
+
+    /**
+     * @param int $matchesnulles
+     */
+    public function setMatchesnulles($matchesnulles)
+    {
+        $this->matchesnulles = $matchesnulles;
+    }
+
+    /**
+     * @return \Groupe
+     */
+    public function getGroupe()
+    {
+        return $this->groupe;
+    }
+
+    /**
+     * @param \Groupe $groupe
+     */
+    public function setGroupe($groupe)
+    {
+        $this->groupe = $groupe;
     }
 
 

@@ -49,6 +49,21 @@ ModifierJoueur:
     path:     /modjou
     defaults: { _controller: GestionEJBundle:Joueur:GoToModifJoueur }
 
+AjouterStade:
+    path:     /ajst
+    defaults: { _controller: GestionEJBundle:Stade:AjouterStade }
+ModifierStade:
+    path:     /modst
+    defaults: { _controller: GestionEJBundle:Stade:GoToModifStade }
+AfficherStade:
+    path:     /affst
+    defaults: { _controller: GestionEJBundle:Stade:afficherStade }
+SupprimerStade:
+    path:     /suppst
+    defaults: { _controller: GestionEJBundle:Stade:GoToSuppStade }
+ErreurStade:
+    path:     /Erreur
+    defaults: { _controller: GestionEJBundle:Stade:GoToSuppStade }
 
 
 

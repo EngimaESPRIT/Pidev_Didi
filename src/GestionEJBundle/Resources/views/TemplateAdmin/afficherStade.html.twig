@@ -63,6 +63,8 @@
                                 <th>Longititude</th>
                                 <th>Latitude</th>
                                 <th>PhotoStade</th>
+                                <th>Modifier</th>
+                                <th>Supprimer</th>
 
 
                             </tr>
@@ -73,7 +75,7 @@
                             {% for v in m %}
 
                                 <tr>
-                                    <td> {{ v.id_stade }}</td>
+                                    <td> {{ v.idstade }}</td>
                                     <td> {{ v.nom }} </td>
                                     <td> {{ v.ville }} </td>
                                     <td> {{ v.capacite }} </td>
@@ -82,10 +84,10 @@
                                     <td> {{ v.photostade }}</td>
 
                                     <td>
-                                        <a href="{{ path('ModifierEquipe',{'id':v.ID_stade}) }}">Modifier Equipe </a>
+                                        <a href="{{ path('ModifierStade',{'id':v.IDstade}) }}">Modifier Stade </a>
                                     </td>
                                     <td>
-                                        <a href="{{ path('SupprimerEquipe',{'id':v.ID_stade}) }}">Supprimer Equipe </a>
+                                        <a href="{{ path('SupprimerStade',{'id':v.IDstade}) }}">Supprimer Stade </a>
                                     </td>
 
                                 </tr>
@@ -96,9 +98,9 @@
                     </div>
                 </div>
             </div>
-
         </div>
-    </div>
+        </div>
+
 
 
     <!-- /page content -->

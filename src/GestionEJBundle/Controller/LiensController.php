@@ -20,8 +20,20 @@ class LiensController extends \Symfony\Bundle\FrameworkBundle\Controller\Control
     }
     public function GoToAdminAction()
     {
-        return $this->render('@GestionEJ/TemplateAdmin/index.html.twig');
+        $user=$this->getUser();
 
+        if (isset($user)) {
+            return $this->render('@GestionEJ/TemplateAdmin/index.html.twig');
+        }
+        else{
+            return $this->render('GestionEJBundle:template 2:page-404.html.twig');
+
+        }
+
+    }
+    public function erreurAction()
+    {
+        return $this->render('GestionEJBundle:template 2:page-404.html.twig');
     }
     public function GoToFixturesAction()
 {

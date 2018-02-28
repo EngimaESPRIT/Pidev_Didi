@@ -1,7 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cea8c0c5-d5c3-462c-a8ee-07ac487ae0e7" name="Default" comment="" />
+    <list default="true" id="cea8c0c5-d5c3-462c-a8ee-07ac487ae0e7" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/commandlinetools/Composer_05_02_18_22_08_c.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/commandlinetools/Symfony_05_02_18_22_09_s.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GestionEJBundle/Entity/Equipe.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GestionEJBundle/Entity/Equipetype.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GestionEJBundle/Entity/Joueur.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GestionEJBundle/Entity/Stade.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GestionMatchBundle/Entity/Groupe.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GestionMatchBundle/Entity/Matches.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/GestionMatchBundle/Entity/Pronostics.php" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PIDEV.iml" afterPath="$PROJECT_DIR$/.idea/PIDEV.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/AppKernel.php" afterPath="$PROJECT_DIR$/app/AppKernel.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/base.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/Resources/views/baseadmin.html.twig" afterPath="$PROJECT_DIR$/app/Resources/views/baseadmin.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/config.yml" afterPath="$PROJECT_DIR$/app/config/config.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/routing.yml" afterPath="$PROJECT_DIR$/app/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/config/services.yml" afterPath="$PROJECT_DIR$/app/config/services.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.json" afterPath="$PROJECT_DIR$/composer.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/composer.lock" afterPath="$PROJECT_DIR$/composer.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GestionEJBundle/Controller/LiensController.php" afterPath="$PROJECT_DIR$/src/GestionEJBundle/Controller/LiensController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GestionEJBundle/Controller/StadeController.php" afterPath="$PROJECT_DIR$/src/GestionEJBundle/Controller/StadeController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GestionEJBundle/Form/AjoutEquipe.php" afterPath="$PROJECT_DIR$/src/GestionEJBundle/Form/AjoutEquipe.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GestionEJBundle/Form/AjoutStade.php" afterPath="$PROJECT_DIR$/src/GestionEJBundle/Form/AjoutStade.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GestionEJBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/GestionEJBundle/Resources/config/routing.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/afficherJoueurs.html.twig" afterPath="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/afficherJoueurs.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/afficherStade.html.twig" afterPath="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/afficherStade.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/ajouterstade.html.twig" afterPath="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/ajouterstade.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/template 2/players.html.twig" afterPath="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/template 2/players.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GestionMatchBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/GestionMatchBundle/Resources/config/routing.yml" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -9,116 +39,70 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="ComposerSettings" executionDataType="PHAR" phpInterpreterId="f3b78ae0-85f0-4f7c-8d25-29d81f0adfbb" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+    <pharPath>$PROJECT_DIR$/composer_2.phar</pharPath>
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="EquipeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Controller/EquipeController.php">
+      <file leaf-file-name="GestionMatchesController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Controller/GestionMatchesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="884">
-              <caret line="73" column="87" lean-forward="false" selection-start-line="73" selection-start-column="87" selection-end-line="73" selection-end-column="87" />
+            <state relative-caret-position="-402">
+              <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StadeController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Controller/StadeController.php">
+      <file leaf-file-name="GestionpronosController.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Controller/GestionpronosController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
+            <state relative-caret-position="178">
+              <caret line="209" column="52" lean-forward="false" selection-start-line="209" selection-start-column="52" selection-end-line="209" selection-end-column="52" />
               <folding>
-                <element signature="e#129#162#0#PHP" expanded="true" />
-                <element signature="e#1001#1050#0#PHP" expanded="true" />
-                <element signature="e#1238#1261#1#PHP" expanded="true" />
-                <element signature="e#1296#1346#0#PHP" expanded="true" />
+                <element signature="e#49#106#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="afficherStade.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/afficherStade.html.twig">
+      <file leaf-file-name="Affichepronos.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Admin/Affichepronos.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-302">
-              <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
-              <folding>
-                <element signature="e#12#31#0#Twig" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="parameters.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="218">
+              <caret line="79" column="83" lean-forward="false" selection-start-line="79" selection-start-column="83" selection-end-line="79" selection-end-column="83" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="parameters.yml.dist" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
+      <file leaf-file-name="Pronostics.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Entity/Pronostics.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <state relative-caret-position="222">
+              <caret line="65" column="29" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="afficherEquipes.html.twig" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/afficherEquipes.html.twig">
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="75" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
-              <folding>
-                <element signature="e#12#31#0#Twig" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LiensController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Controller/LiensController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-49">
-              <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="83" />
+            <state relative-caret-position="68">
+              <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Stade.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Entity/Stade.php">
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/config/routing.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="176" column="0" lean-forward="true" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+            <state relative-caret-position="220">
+              <caret line="124" column="24" lean-forward="false" selection-start-line="124" selection-start-column="14" selection-end-line="124" selection-end-column="24" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/config/config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JoueurController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Controller/JoueurController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="74" column="2" lean-forward="true" selection-start-line="74" selection-start-column="2" selection-end-line="88" selection-end-column="5" />
-              <folding>
-                <element signature="e#129#163#0#PHP" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -127,65 +111,68 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>teams</find>
-      <find>contact</find>
-      <find>fixtures</find>
-      <find>home</find>
-      <find>getR</find>
-      <find>logo</find>
-      <find>member</find>
-      <find>sr</find>
-      <find>login</find>
-      <find>footer</find>
-      <find>first name</find>
-      <find>form ge</find>
-      <find>first</find>
-      <find>drapea</find>
-      <find>src</find>
-      <find>plaue</find>
-      <find>Ajo</find>
-      <find>fixed header</find>
-      <find>app.</find>
-      <find>username</find>
-      <find>custom.min.js</find>
-      <find>ajout joueur</find>
-      <find>parameters</find>
-      <find>nom</find>
-      <find>role</find>
-      <find>roles</find>
-      <find>squad</find>
-      <find>v.nom</find>
-      <find>colom</find>
-      <find>datedena</find>
+      <find>getId</find>
+      <find>iduser</find>
+      <find>findar</find>
+      <find>setid</find>
+      <find>setIdM</find>
+      <find>prono</find>
+      <find>pron</find>
+      <find>s</find>
+      <find>user</find>
+      <find>ajouter</find>
+      <find>events_admin</find>
+      <find>sta</find>
+      <find>choix</find>
+      <find>setsta</find>
+      <find>matc</find>
+      <find>sets</find>
+      <find>set</find>
+      <find>setsau</find>
+      <find>affiche</find>
+      <find>aaa</find>
+      <find>par</find>
+      <find>vali</find>
+      <find>idU</find>
+      <find>IdUser</find>
+      <find>array</find>
+      <find>aff</find>
+      <find>idUser</find>
+      <find>idUse</find>
+      <find>valide</find>
+      <find>id</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\wamp64\www\PIDEV</dir>
+    </dirStrings>
   </component>
   <component name="FrameworkCommandLineHistory">
     <commandsHistory>
-      <command text="s doctrine:schema:create" />
-      <command text="s doctrine:schema:update --force" />
-      <command text="s cache:clear" />
-      <command text="s doctrine:mapping:import GestionEJBundle annotation" />
-      <command text="s doctrine:generate:form GestionEJBundle" />
-      <command text="s doctrine:mapping:import GestionEJBundle annotation" />
-      <command text="s doctrine:generate:form GestionEJBundle:Equipe" />
-      <command text="s doctrine:generate:form GestionEJBundle:Joueur" />
-      <command text="s doctrine:mapping:import GestionEJBundle annotation" />
-      <command text="s doctrine:schema:update --force" />
-      <command text="s doctrine:schema:update" />
+      <command text="s doctrine:schema:update --dump-sql " />
       <command text="s doctrine:schema:update --force " />
-      <command text="s doctrine:mapping:import GestionEJBundle annotation" />
-      <command text="s doctrine:schema:update --force " />
-      <command text="s doctrine:mapping:import GestionEJBundle annotation" />
-      <command text="s doctrine:schema:update --force " />
-      <command text="s generate:bundle" />
       <command text="s doctrine:mapping:import GestionMatchBundle annotation" />
       <command text="s doctrine:schema:update --force " />
-      <command text="s doctrine:generate:form MyAppUserBundle" />
-      <command text="s doctrine:generate:form MyAppUserBundle:User" />
+      <command text="s doctrine:generate:form Matches" />
+      <command text="s doctrine:generate:form GestionMatchBundle:Matches" />
       <command text="s doctrine:schema:update --force " />
-      <command text="s doctrine:mapping:import MyAppBundle annotation" />
-      <command text="s doctrine:generate:form GestionEJBundle:Stade" />
+      <command text="s doctrine:mapping:import GestionMatchBundle annotation" />
       <command text="s doctrine:schema:update --force " />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s doctrine:mapping:import GestionMatchBundle annotation" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s config:dump-reference" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="c require endroid/qr-code" />
+      <command text="s doctrine:generate:form GestionMatchBundle:events" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s assets:install web" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s cache:clear" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s doctrine:mapping:import GestionEJBundle annotation" />
+      <command text="s doctrine:schema:update --force" />
+      <command text="s doctrine:mapping:import GestionEJBundle annotation" />
+      <command text="s doctrine:schema:update --force" />
     </commandsHistory>
   </component>
   <component name="Git.Settings">
@@ -197,57 +184,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/MyApp/UserBundle/Resources/views/TemplateAdmin/afficherJoueurs.html.twig" />
-        <option value="$PROJECT_DIR$/src/MyApp/UserBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Form/EquipeType.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/ajouterequipe.html.twig" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/template 2/shop.html.twig" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/modifJoueurs.html.twig" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/modifEquipe.html.twig" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/afficherEquipes.html.twig" />
-        <option value="$PROJECT_DIR$/app/config/security.yml" />
-        <option value="$PROJECT_DIR$/src/MyApp/UserBundle/Redirection/LoginAfterRedirection.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Matches.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Vehicules.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Pronostics.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Feedback.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Evaluation.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Equipetype.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Demande.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Commoditefavorite.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Comment.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Commandes.php" />
-        <option value="$PROJECT_DIR$/src/MyApp/UserBundle/Entity/User.php" />
-        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Entity/Pronostics.php" />
-        <option value="$PROJECT_DIR$/app/Resources/views/baseadmin.html.twig" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/afficherJoueurs.html.twig" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Form/AjoutJoueur.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/ajouterjoueur.html.twig" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/ImageUpload.php" />
-        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Entity/Groupe.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Form/AjoutEquipe.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Equipe.php" />
-        <option value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/RegistrationFormType.php" />
-        <option value="$PROJECT_DIR$/app/config/services.yml" />
-        <option value="$PROJECT_DIR$/src/MyApp/UserBundle/Form/RegistrationType.php" />
-        <option value="$PROJECT_DIR$/src/MyApp/UserBundle/Resources/views/template 2/teams.html.twig" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Controller/LiensController.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Resources/config/routing.yml" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/template 2/teams.html.twig" />
         <option value="$PROJECT_DIR$/src/GestionEJBundle/Controller/EquipeController.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/template 2/single-team.html.twig" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Joueur.php" />
-        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Entity/Matches.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/ajouterstade.html.twig" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Form/AjoutStade.php" />
-        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Form/GroupeType.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Repository/GroupeRepository.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Admin/Groupes.html.twig" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/cart.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/services.yml" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/calendrier.html.twig" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/affichegroupes.html.twig" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/GestionMatchBundle.php" />
+        <option value="$PROJECT_DIR$/vendor/ancarebeca/full-calendar-bundle/Model/FullCalendarEvent.php" />
+        <option value="$PROJECT_DIR$/src/AppBundle/Listener/LoadDataListener.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Entity/EventCustom.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Controller/GestionGroupeController.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Form/MatchesType.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Admin/AfficherGroupe.html.twig" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Admin/afficherlesmatches.html.twig" />
         <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Stade.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/afficherStade.html.twig" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Controller/JoueurController.php" />
-        <option value="$PROJECT_DIR$/src/GestionEJBundle/Controller/StadeController.php" />
-        <option value="$PROJECT_DIR$/app/config/parameters.yml.dist" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Form/PronosticsType.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/listematches.html.twig" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Entity/Groupe.php" />
+        <option value="$PROJECT_DIR$/app/AppKernel.php" />
+        <option value="$PROJECT_DIR$/app/config/config.yml" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Controller/ticketController.php" />
+        <option value="$PROJECT_DIR$/app/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/event/eventtake.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/base.html.twig" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Entity/ticket.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/ticket/showtickets.html.twig" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Entity/events.php" />
+        <option value="$PROJECT_DIR$/web/bundles/front/calendar/js/script.js" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Controller/eventController.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Admin/events_admin.html.twig" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/event/event.html.twig" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Form/eventsType.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/Message2.html.twig" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/Message.html.twig" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/fixtures.html.twig" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Controller/GestionMatchesController.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Entity/Matches.php" />
+        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Equipetype.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Repository/MatchesRepository.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Repository/PronosticsRepository.php" />
+        <option value="$PROJECT_DIR$/src/GestionEJBundle/Entity/Equipe.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/listedespronostiquesclient.html.twig" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Entity/Pronostics.php" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/parier.html.twig" />
+        <option value="$PROJECT_DIR$/app/Resources/views/baseadmin.html.twig" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Admin/Affichepronos.html.twig" />
+        <option value="$PROJECT_DIR$/src/GestionMatchBundle/Controller/GestionpronosController.php" />
       </list>
     </option>
   </component>
@@ -257,14 +244,86 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1382" />
-    <option name="height" value="744" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/php-diff" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/phpspec" />
+      <path value="$PROJECT_DIR$/vendor/ancarebeca/full-calendar-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sportify-master/sass" />
+      <path value="$PROJECT_DIR$/vendor/sportify-master/web" />
+      <path value="$PROJECT_DIR$/vendor/sportify-master/var" />
+      <path value="$PROJECT_DIR$/vendor/sportify-master/bin" />
+      <path value="$PROJECT_DIR$/vendor/sportify-master/src" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/annotations" />
+      <path value="$PROJECT_DIR$/vendor/incenteev/composer-parameter-handler" />
+      <path value="$PROJECT_DIR$/vendor/sportify-master/app" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/collections" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/common" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/dbal" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-bundle" />
+      <path value="$PROJECT_DIR$/vendor/nomaya/social-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/doctrine-cache-bundle" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/vendor/endroid/calendar" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php71" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/lexer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/orm" />
+      <path value="$PROJECT_DIR$/vendor/fig/link-util" />
+      <path value="$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle" />
+      <path value="$PROJECT_DIR$/vendor/jdorn/sql-formatter" />
+      <path value="$PROJECT_DIR$/vendor/monolog/monolog" />
+      <path value="$PROJECT_DIR$/vendor/ircmaxell/password-compat" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php55" />
+      <path value="$PROJECT_DIR$/vendor/paragonie/random_compat" />
+      <path value="$PROJECT_DIR$/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/vendor/psr/container" />
+      <path value="$PROJECT_DIR$/vendor/psr/link" />
+      <path value="$PROJECT_DIR$/vendor/psr/log" />
+      <path value="$PROJECT_DIR$/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/vendor/sensio/distribution-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/framework-extra-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensio/generator-bundle" />
+      <path value="$PROJECT_DIR$/vendor/sensiolabs/security-checker" />
+      <path value="$PROJECT_DIR$/vendor/NomayaSocialButtonsBundle-master/Tests" />
+      <path value="$PROJECT_DIR$/vendor/swiftmailer/swiftmailer" />
+      <path value="$PROJECT_DIR$/vendor/NomayaSocialButtonsBundle-master/DependencyInjection" />
+      <path value="$PROJECT_DIR$/vendor/NomayaSocialButtonsBundle-master/Resources" />
+      <path value="$PROJECT_DIR$/vendor/symfony/monolog-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/phpunit-bridge" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-apcu" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-icu" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/NomayaSocialButtonsBundle-master/Twig" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php56" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/NomayaSocialButtonsBundle-master/Helpers" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php70" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-util" />
+      <path value="$PROJECT_DIR$/vendor/symfony/swiftmailer-bundle" />
+      <path value="$PROJECT_DIR$/vendor/symfony/symfony" />
+      <path value="$PROJECT_DIR$/vendor/twig/twig" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/xipotera/full-calendar-bundle" />
+    </include_path>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="37" />
+    <option name="width" value="1284" />
+    <option name="height" value="728" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -280,305 +339,226 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vendor" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="friendsofsymfony" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="user-bundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MyAppBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GestionEJBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GestionEJBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TemplateAdmin" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GestionEJBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GestionEJBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Resources" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GestionEJBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Form" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GestionEJBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Entity" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="GestionEJBundle" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Controller" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="PIDEV" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
+          <expand>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GestionEJBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GestionEJBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GestionMatchBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GestionMatchBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GestionMatchBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GestionMatchBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Form" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GestionMatchBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Repository" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GestionMatchBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GestionMatchBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="config" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GestionMatchBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GestionMatchBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GestionMatchBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="event" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GestionMatchBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Front" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="GestionMatchBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="views" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="ticket" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MyApp" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MyApp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="UserBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="MyApp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="UserBundle" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Entity" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bundles" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bundles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="front" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bundles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="front" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="calendar" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="PIDEV" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PIDEV" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="web" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="bundles" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="front" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="calendar" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="js" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php.zend.framework.tool" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../testpidev-web" />
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp64\www\PIDEV\src\GestionMatchBundle\Entity" />
-      <recent name="C:\wamp64\www\PIDEV\src\GestionEJBundle\Entity" />
-      <recent name="C:\wamp64\www\PIDEV\src\MyApp\UserBundle\Entity" />
+      <recent name="C:\wamp64\www\PIDEV\web\bundles" />
       <recent name="C:\wamp64\www\PIDEV\web" />
-      <recent name="C:\wamp64\www\PIDEV\src\GestionEJBundle\Controller" />
+      <recent name="C:\wamp64\www\PIDEV\src\GestionMatchBundle\Resources\views\Admin" />
+      <recent name="C:\wamp64\www\PIDEV\src\GestionMatchBundle\Resources\views" />
+      <recent name="C:\wamp64\www\PIDEV\src\GestionMatchBundle\Controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\wamp64\www\PIDEV\src\GestionEJBundle\Entity" />
       <recent name="C:\wamp64\www\PIDEV\src\GestionActualiteBundle\Entity" />
       <recent name="C:\wamp64\www\PIDEV\src\GestionCommoditeBundle\Entity" />
       <recent name="C:\wamp64\www\PIDEV\src\GestionShopBundle\Entity" />
       <recent name="C:\wamp64\www\PIDEV\src\GestionMatchBundle\Entity" />
-      <recent name="C:\wamp64\www\PIDEV\src\GestionTransportBundle\Entity" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -594,6 +574,14 @@
     </option>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+    </configuration>
     <configuration default="true" type="CodeceptionConfigurationType" factoryName="Codeception">
       <PhpTestRunnerSettings />
       <method />
@@ -632,15 +620,6 @@
       <PhpTestRunnerSettings />
       <method />
     </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
       <command value="run" />
       <scripts />
@@ -665,6 +644,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="cea8c0c5-d5c3-462c-a8ee-07ac487ae0e7" name="Default" comment="" />
@@ -683,26 +665,43 @@
       <workItem from="1518263187014" duration="10587000" />
       <workItem from="1518297605815" duration="8700000" />
       <workItem from="1518346622060" duration="12165000" />
-      <workItem from="1518368764158" duration="3212000" />
+      <workItem from="1518368764158" duration="7259000" />
+      <workItem from="1518435827041" duration="6165000" />
+      <workItem from="1518559314023" duration="6354000" />
+      <workItem from="1518618633149" duration="4372000" />
+      <workItem from="1518626506464" duration="3825000" />
+      <workItem from="1518686907127" duration="274000" />
+      <workItem from="1518868678042" duration="1537000" />
+      <workItem from="1518870334805" duration="10587000" />
+      <workItem from="1519085915425" duration="45000" />
+      <workItem from="1519089010833" duration="519000" />
+      <workItem from="1519089553145" duration="1273000" />
+      <workItem from="1519133214115" duration="27647000" />
+      <workItem from="1519386162728" duration="206000" />
+      <workItem from="1519387500952" duration="5368000" />
+      <workItem from="1519409939588" duration="611000" />
+      <workItem from="1519565882426" duration="39102000" />
+      <workItem from="1519665685710" duration="49547000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85191000" />
+    <option name="totallyTimeSpent" value="246670000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2818448" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.50292826" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40063092" sideWeight="0.5146413" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4258675" sideWeight="0.49707174" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38801262" sideWeight="0.48535872" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -710,438 +709,442 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="processedProjectFiles" value="true" />
+    <option name="version" value="1" />
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/GestionShopBundle/Entity/Lignedecommande.php">
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Form/MatchesType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="816">
-          <caret line="48" column="0" lean-forward="false" selection-start-line="46" selection-start-column="9" selection-end-line="48" selection-end-column="0" />
+        <state relative-caret-position="354">
+          <caret line="48" column="5" lean-forward="false" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionShopBundle/Entity/Produits.php">
+    <entry file="file://$USER_HOME$/Desktop/GestionMatchBundle/Entity/Matches.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="113">
+          <caret line="76" column="15" lean-forward="false" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionTransportBundle/Entity/Demande.php">
+    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Resources/config/routing/all.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="75" column="64" lean-forward="false" selection-start-line="75" selection-start-column="64" selection-end-line="75" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionTransportBundle/Entity/Horaire.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1207">
-          <caret line="71" column="9" lean-forward="false" selection-start-line="71" selection-start-column="9" selection-end-line="71" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionTransportBundle/Entity/Transport.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionTransportBundle/Entity/Vehicules.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="68" column="36" lean-forward="false" selection-start-line="68" selection-start-column="36" selection-end-line="68" selection-end-column="64" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/modifEquipe.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="72" column="0" lean-forward="false" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Resources/views/baseadmin.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4211">
-          <caret line="79" column="88" lean-forward="false" selection-start-line="79" selection-start-column="76" selection-end-line="79" selection-end-column="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/afficherJoueurs.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
-          <caret line="127" column="0" lean-forward="false" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/ajouterequipe.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Form/AjoutJoueur.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-250">
-          <caret line="4" column="4" lean-forward="false" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
-          <folding>
-            <element signature="e#40#89#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Entity/ImageUpload.php" />
-    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Entity/Groupe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2958">
-          <caret line="174" column="19" lean-forward="false" selection-start-line="174" selection-start-column="19" selection-end-line="174" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/config_dev.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Form/AjoutEquipe.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="8" lean-forward="false" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="8" />
-          <folding>
-            <element signature="e#40#80#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyApp/UserBundle/Entity/User.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="271" column="28" lean-forward="false" selection-start-line="271" selection-start-column="23" selection-end-line="271" selection-end-column="28" />
-          <folding>
-            <element signature="e#124#167#0#PHP" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyApp/UserBundle/Redirection/LoginAfterRedirection.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="48" column="12" lean-forward="false" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyApp/UserBundle/Resources/views/Registration/register.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyApp/UserBundle/Resources/views/Registration/register_content.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/friendsofsymfony/user-bundle/Form/Type/RegistrationFormType.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="55" column="15" lean-forward="false" selection-start-line="55" selection-start-column="15" selection-end-line="55" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-336">
-          <caret line="7" column="30" lean-forward="false" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyApp/UserBundle/Resources/views/template 2/login.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyApp/UserBundle/Resources/views/template 2/teams.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="680">
-          <caret line="72" column="34" lean-forward="false" selection-start-line="72" selection-start-column="34" selection-end-line="72" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyApp/UserBundle/Resources/views/TemplateAdmin/afficherEquipes.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-6307">
-          <caret line="331" column="29" lean-forward="false" selection-start-line="331" selection-start-column="29" selection-end-line="331" selection-end-column="29" />
+        <state relative-caret-position="170">
+          <caret line="10" column="28" lean-forward="false" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+        <state relative-caret-position="-229">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyApp/UserBundle/Form/RegistrationType.php">
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Form/PronosticsType.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="25" column="17" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-          <folding>
-            <element signature="e#42#82#0#PHP" expanded="false" />
-          </folding>
+        <state relative-caret-position="17">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyApp/UserBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/security.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/services.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="38" column="49" lean-forward="false" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
+        <state relative-caret-position="263">
+          <caret line="38" column="45" lean-forward="false" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Controller/DefaultController.php">
+    <entry file="file://$PROJECT_DIR$/app/AppKernel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/affichegroupes.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Form/GroupeType.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/front/js/app/all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="77">
+          <caret line="557" column="0" lean-forward="false" selection-start-line="557" selection-start-column="0" selection-end-line="557" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Controller/ticketController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="77" column="36" lean-forward="false" selection-start-line="77" selection-start-column="20" selection-end-line="77" selection-end-column="36" />
           <folding>
-            <element signature="e#219#260#1#PHP" expanded="false" />
-            <element signature="e#340#379#1#PHP" expanded="false" />
+            <element signature="e#133#169#0#PHP" expanded="true" />
+            <marker date="1519667424851" expanded="true" signature="548:641" ph="SELECT e FRO... PidevClientBundle" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Resources/views/template 2/single-team.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/event/eventtake.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4743">
-          <caret line="279" column="0" lean-forward="false" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/ticket/showtickets.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Controller/eventController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="138" column="49" lean-forward="false" selection-start-line="138" selection-start-column="49" selection-end-line="138" selection-end-column="49" />
           <folding>
-            <element signature="e#12#26#0#Twig" expanded="false" />
+            <element signature="e#131#168#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Admin/AfficherGroupe.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Form/eventsType.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="60" column="43" lean-forward="false" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Controller/GestionGroupeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
+          <folding>
+            <element signature="e#49#88#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Entity/events.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="14" />
+          <folding>
+            <element signature="e#48#96#0#PHP" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/Message2.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="42" column="110" lean-forward="false" selection-start-line="42" selection-start-column="110" selection-end-line="42" selection-end-column="110" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Admin/events_admin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="19" lean-forward="false" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/event/event.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="77" column="34" lean-forward="false" selection-start-line="77" selection-start-column="34" selection-end-line="77" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/front/calendar/js/jquery-1.8.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Entity/ticket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="91" selection-end-column="5" />
+          <folding>
+            <element signature="e#45#77#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Entity/Equipetype.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="63" lean-forward="false" selection-start-line="19" selection-start-column="63" selection-end-line="19" selection-end-column="63" />
+        <state relative-caret-position="171">
+          <caret line="119" column="63" lean-forward="false" selection-start-line="119" selection-start-column="63" selection-end-line="119" selection-end-column="63" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Entity/Joueur.php">
+    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Entity/Pronostics.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2856">
-          <caret line="168" column="92" lean-forward="false" selection-start-line="168" selection-start-column="92" selection-end-line="168" selection-end-column="92" />
+        <state relative-caret-position="102">
+          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="21" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Resources/views/template 2/table-point.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Entity/Groupe.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyAppBundle/Entity/Post.php">
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/Message.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/MyAppBundle/Entity/Matches.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="93" column="12" lean-forward="false" selection-start-line="93" selection-start-column="12" selection-end-line="100" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Resources/views/template 2/teams.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="54" column="46" lean-forward="false" selection-start-line="54" selection-start-column="46" selection-end-line="54" selection-end-column="93" />
+        <state relative-caret-position="176">
+          <caret line="43" column="22" lean-forward="false" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Entity/Matches.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="95" column="64" lean-forward="false" selection-start-line="95" selection-start-column="64" selection-end-line="95" selection-end-column="64" />
+        <state relative-caret-position="103">
+          <caret line="220" column="30" lean-forward="false" selection-start-line="220" selection-start-column="20" selection-end-line="220" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/ajouterjoueur.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Repository/MatchesRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="46" column="14" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#31#0#Twig" expanded="false" />
-            <element signature="e#56#111#0#Twig" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/ajouterstade.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1092">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#31#0#Twig" expanded="false" />
-            <element signature="e#56#111#0#Twig" expanded="false" />
-          </folding>
+        <state relative-caret-position="136">
+          <caret line="13" column="3" lean-forward="false" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Entity/Equipe.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="114" column="0" lean-forward="false" selection-start-line="114" selection-start-column="0" selection-end-line="119" selection-end-column="25" />
+        <state relative-caret-position="175">
+          <caret line="526" column="1" lean-forward="false" selection-start-line="526" selection-start-column="1" selection-end-line="526" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Form/AjoutStade.php">
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Repository/PronosticsRepository.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="18" column="81" lean-forward="false" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
+        <state relative-caret-position="153">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Controller/EquipeController.php">
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/listematches.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="884">
-          <caret line="73" column="87" lean-forward="false" selection-start-line="73" selection-start-column="87" selection-end-line="73" selection-end-column="87" />
+        <state relative-caret-position="156">
+          <caret line="66" column="58" lean-forward="false" selection-start-line="66" selection-start-column="58" selection-end-line="66" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/listedespronostiquesclient.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="183">
+          <caret line="69" column="56" lean-forward="false" selection-start-line="69" selection-start-column="51" selection-end-line="69" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/parier.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="75" column="90" lean-forward="false" selection-start-line="75" selection-start-column="59" selection-end-line="75" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Front/fixtures.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="81" column="24" lean-forward="false" selection-start-line="81" selection-start-column="24" selection-end-line="81" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MyApp/UserBundle/Entity/User.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="216" column="5" lean-forward="false" selection-start-line="216" selection-start-column="5" selection-end-line="216" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Resources/views/baseadmin.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="90" column="87" lean-forward="false" selection-start-line="90" selection-start-column="87" selection-end-line="90" selection-end-column="87" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/config/config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
+        <state relative-caret-position="173">
+          <caret line="118" column="0" lean-forward="false" selection-start-line="113" selection-start-column="2" selection-end-line="118" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Entity/Stade.php">
+    <entry file="file://$PROJECT_DIR$/app/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="176" column="0" lean-forward="true" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
+        <state relative-caret-position="68">
+          <caret line="4" column="9" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="9" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/afficherEquipes.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/views/Admin/Affichepronos.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="75" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="118" selection-end-column="0" />
+        <state relative-caret-position="218">
+          <caret line="79" column="83" lean-forward="false" selection-start-line="79" selection-start-column="83" selection-end-line="79" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/front/calendar/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-280">
+          <caret line="8" column="27" lean-forward="true" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/bundles/front/calendar/js/fullcalendar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-125300">
+          <caret line="350" column="23" lean-forward="false" selection-start-line="350" selection-start-column="23" selection-end-line="350" selection-end-column="23" />
           <folding>
-            <element signature="e#12#31#0#Twig" expanded="false" />
+            <marker date="1480428633184" expanded="true" signature="302545:302551" ph=" " />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Resources/views/TemplateAdmin/afficherStade.html.twig">
+    <entry file="file://$PROJECT_DIR$/web/bundles/front/calendar/js/bootstrap.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-302">
-          <caret line="58" column="44" lean-forward="false" selection-start-line="58" selection-start-column="44" selection-end-line="58" selection-end-column="44" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="e#12#31#0#Twig" expanded="false" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Controller/LiensController.php">
+    <entry file="file://$PROJECT_DIR$/web/bundles/front/calendar/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-49">
-          <caret line="12" column="30" lean-forward="false" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="83" />
+        <state relative-caret-position="17">
+          <caret line="1" column="991" lean-forward="false" selection-start-line="1" selection-start-column="991" selection-end-line="1" selection-end-column="991" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Controller/JoueurController.php">
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Resources/config/routing.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="74" column="2" lean-forward="true" selection-start-line="74" selection-start-column="2" selection-end-line="88" selection-end-column="5" />
+        <state relative-caret-position="220">
+          <caret line="124" column="24" lean-forward="false" selection-start-line="124" selection-start-column="14" selection-end-line="124" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Entity/Pronostics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="222">
+          <caret line="65" column="29" lean-forward="false" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Controller/GestionMatchesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-402">
+          <caret line="49" column="0" lean-forward="false" selection-start-line="49" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/GestionMatchBundle/Controller/GestionpronosController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="209" column="52" lean-forward="false" selection-start-line="209" selection-start-column="52" selection-end-line="209" selection-end-column="52" />
           <folding>
-            <element signature="e#129#163#0#PHP" expanded="true" />
+            <element signature="e#49#106#0#PHP" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/GestionEJBundle/Controller/StadeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="67" column="5" lean-forward="false" selection-start-line="67" selection-start-column="5" selection-end-line="67" selection-end-column="5" />
-          <folding>
-            <element signature="e#129#162#0#PHP" expanded="true" />
-            <element signature="e#1001#1050#0#PHP" expanded="true" />
-            <element signature="e#1238#1261#1#PHP" expanded="true" />
-            <element signature="e#1296#1346#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="21" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml.dist">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
